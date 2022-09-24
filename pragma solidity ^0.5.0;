@@ -1,0 +1,22 @@
+pragma solidity ^0.5.0;
+
+//create a contract group4 and then create a struct with your name,after which you will create
+//after which you will create function called intel,make it public and height variable into the struct
+
+contract group4 {
+      
+      struct Nkeiruka{
+      string name;
+      uint height;
+}
+
+Nkeiruka[] public tech4dev;
+
+
+function Intel(string memory _name, uint _height) public {
+
+    tech4dev.push(Nkeiruka(_name, _height));
+}
+
+
+ }
